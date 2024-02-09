@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    background-color: black;
+    
+  }
+  a {
+    text-decoration: none;
+  }
+  .header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index:100;
+    padding: 0 20px;
+  }
+ 
+  .nav {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .nav,
+  .nav_item {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav_logo,
+  .nav_link,
+  .button {
+    color: #fa5b0f;
+  }
+  .nav_logo {
+    font-size: 25px;
+  }
+  .nav_item {
+    column-gap: 25px;
+  }
+  .nav_link:hover {
+    color: #d9d9d9;
+  }
+  .button {
+    padding: 6px 24px;
+    border: 2px solid #fa5b0f;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color:#fa5b0f;
+    color: white;
+  }
+  .button:active {
+    transform: scale(0.98);
+  }
+  .button :hover {
+    background-color: bisque;
+    color: black;
+  }
+  .image1{
+    height: 60vh;
+    margin-right: 150px;
+    margin-top: 100px;
+    float: right;
+  }
+  .Homecontainer{
+    padding-top: 150px;
+    padding-left: 200px;
+    font-family: Roboto;
+    font-size: 37px;
+  }
+  .Hello{
+    color: white;
+    
+  }
+  .name{
+    color:#fa5b0f;
+    
+  }
+  .study{
+    color:white;
+  }
+  .hobbie{
+    color:white;
+  }
+button{
+    padding: 30px;
+    margin-top: 20px;
+}
+.button1{
+    border-color: #fa5b0f;
+    background-color:#fa5b0f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:white;
+    border-radius: 10px;
+}
+
+.button1:hover{
+    background-color: bisque;
+    color: black;
+  }
+  @media only screen and (max-width: 785px){
+    .dropdown{
+        display: block;
+    }    
+    nav
+    {
+        display: none;
+    }
+    .hero{
+        width: 100%;
+        text-align: center;
+        padding:10%;
+    }
+}
